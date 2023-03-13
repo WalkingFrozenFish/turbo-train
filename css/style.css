@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #222;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title {
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.form-block {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.507);
+}
+
+.form-block>h2 {
+    margin-bottom: 10px;
+}
+
+
+/* Name block */
+.name-block {
+    display: flex;
+    align-items: center;
+}
+
+.name-block>p {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.name-block>input {
+    width: 100%;
+    padding: 5px;
+}
+
+
+/* Review block */
+.review-block>p {
+    font-size: 18px;
+}
+
+
+/* Item */
+.item {
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.507);
+    margin-bottom: 10px;
+    /* padding: 5px; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.item:nth-child(odd) {
+    background-color: #cccccc05;
+}
+
+.item:nth-child(even) {
+    background-color: #cccccc2c;
+}
+
+.item>label {
+    width: 100%;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+
+/* Button generate review */
+.generate-review {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+
+table {
+    /* border: 1px solid black; */
+    /* box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.493); */
+    width: 100%;
+}
+
+td {
+    border: 1px solid rgba(0, 0, 0, 0.185);
+    padding: 10px;
+}
+
+.message-cell {
+    /* cursor: pointer; */
+    min-width: 100%;
+}
+
+.point-cell {
+    text-align: center;
+    width: 90px;
+}
+
+.checkbox-cell {
+    width: 35px;
+}
